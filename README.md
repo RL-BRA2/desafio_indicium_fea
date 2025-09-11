@@ -1,4 +1,4 @@
-<div align="center" style= "padding: 20px; background-color: #fff5f5;">
+<div align="center" style="border: 2px solid #000000; padding: 20px; background-color: #fff5f5;">
   <img src="images/academy.png" alt="Indicium Academy Logo" width="200"/>
 </div>
 
