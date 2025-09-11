@@ -1,18 +1,17 @@
-<br>
-
-<div align="center" style="border: 3px solid #ff4d4d; padding: 20px; background-color: #fff5f5;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" alt="Databricks Logo" width="200"/>
-  <h1 style="color: #000000 ">Projeto de Dados - Formação em Engenharia de Analytics</h1>
+<div align="center" style= "padding: 20px; background-color: #fff5f5;">
+  <img src="images/academy.png" alt="Indicium Academy Logo" width="200"/>
 </div>
 
-<br>
+<h1 align="center"> Projeto de Dados - Formação em Engenharia de Analytics </h1>
 
 <div align="center" style="border: 3px solid #ff4d4d; padding: 5px; background-color: #fff5f5;">
 <br>
   <h1 style="color: #ff4d4d">⚠️ ATENÇÃO: ESTE É UM REPOSITÓRIO PÚBLICO ⚠️</h1>
 </div>
 
-## Todo o conteúdo presente neste repositório é de acesso público. Não adicione informações sensíveis, chaves de acesso, senhas ou quaisquer outros dados confidenciais
+<h1 align="center"> Todo o conteúdo presente neste repositório é de acesso público.
+<br>
+Não adicione informações sensíveis, chaves de acesso, senhas ou quaisquer outros dados confidenciais <h1>
 
 ## Visão Geral
 
@@ -89,9 +88,3 @@ Após a conclusão bem-sucedida de todas as células, você poderá ir até o **
 ![Catalog Data](images/catalog.png)
 
 Se você chegou até aqui, seu ambiente está configurado com sucesso e pronto para o curso!
-
----
-
-**Mantido por:**
-
-![Indicium Academy Logo](images/academy.png)
