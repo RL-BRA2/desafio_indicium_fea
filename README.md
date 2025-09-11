@@ -9,9 +9,7 @@
   <h1 style="color: #ff4d4d">⚠️ ATENÇÃO: ESTE É UM REPOSITÓRIO PÚBLICO ⚠️</h1>
 </div>
 
-<h1 align="center"> Todo o conteúdo presente neste repositório é de acesso público.
-<br>
-Não adicione informações sensíveis, chaves de acesso, senhas ou quaisquer outros dados confidenciais <h1>
+# Todo o conteúdo presente neste repositório é de acesso público. Não adicione informações sensíveis, chaves de acesso, senhas ou quaisquer outros dados confidenciais
 
 ## Visão Geral
 
