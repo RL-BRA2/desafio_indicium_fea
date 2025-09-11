@@ -35,13 +35,17 @@ Antes de começar, você precisa apenas de acesso a um workspace [Databricks Fre
 Para ter acesso aos arquivos do curso, vamos clonar este repositório diretamente para dentro do seu Databricks. Siga os passos abaixo com atenção:
 
 **Acesse a Seção de Repositórios:**
+
 1. No menu lateral esquerdo do Databricks, clique em **+ New**
+
 2. Dentro dele, clique em **More**
+
 3. E, por fim, clique em **Git folder**.
 
     ![Git folder UI](images/git_folder.png)
 
 **Adicione um Novo Repositório:**
+
 1. **Preencha a URL do Repositório:**
     No campo **URL do repositório Git (Git repository URL)**, cole a seguinte URL:
     ```
