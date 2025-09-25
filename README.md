@@ -42,16 +42,16 @@ Para ter acesso aos arquivos do curso, vamos clonar este repositório diretament
 1. **Preencha a URL do Repositório:**
     No campo **URL do repositório Git (Git repository URL)**, cole a seguinte URL:
     ```
-    https://bitbucket.org/indiciumtech/fea-databricks-data.git
+    https://bitbucket.org/indiciumtech/databricks-datasources.git
     ```
-    O campo "Nome do repositório" (Git folder name) será preenchido automaticamente como `fea-databricks-data`. Mantenha o provedor Git como "Bitbucket".
+    O campo "Nome do repositório" (Git folder name) será preenchido automaticamente como `databricks-datasources`. Mantenha o provedor Git como "Bitbucket".
 
 2. **Clone o Repositório:**
     Clique no botão azul **Criar Repositório (Create Git folder)**. O Databricks irá se conectar ao Bitbucket e baixar todos os arquivos.
 
 ![Git Folder Creation](images/folder_creation.png)
 
-Pronto! Agora você deve ver a pasta `fea-databricks-data` no seu workspace.
+Pronto! Agora você deve ver a pasta `databricks-datasouces` no seu workspace.
 
 ![Workspace Folders](images/workspace.png)
 

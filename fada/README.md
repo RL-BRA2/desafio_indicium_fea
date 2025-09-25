@@ -15,7 +15,7 @@
 Com o repositório configurado, o próximo passo é executar o código para criar as tabelas.
 
 1.  **Abra o Notebook de Ingestão:**
-    Dentro da pasta `fea-databricks-data` que você acabou de clonar, clique na pasta `fada`, encontre e clique no notebook chamado `banvic_marts_ingestion`.
+    Dentro da pasta `databricks-datasources` que você acabou de clonar, clique na pasta `fada`, encontre e clique no notebook chamado `banvic_marts_ingestion`.
 
 2.  **Execute o Notebook:**
     Clique no botão **Executar tudo (Run all)**, localizado na barra de ferramentas superior do notebook.
