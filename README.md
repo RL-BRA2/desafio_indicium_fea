@@ -13,15 +13,11 @@
 
 ## Visão Geral
 
-Bem-vindo(a) à **Formação em Engenharia de Analytics**!
+Bem-vindo(a)!
 
 Este repositório é o ponto de partida para as nossas aulas práticas. Ele contém o código necessário para criar em seu ambiente Databricks as tabelas e os dados que serão utilizados ao longo do curso.
 
-O objetivo é simples: rodar um único notebook que irá gerar automaticamente todas as bases de dados necessárias para os exercícios, utilizando os famosos bancos de dados de estudo: `Northwind` e `AdventureWorks`.
-
-## Objetivo Principal
-
-Ao final do processo, você terá um novo catálogo em seu Databricks chamado `fea_academy`. Dentro dele, estarão os schemas (conjuntos de tabelas) `northwind` e `adventure_works`, prontos para serem explorados.
+O objetivo é simples: rodar um único notebook que irá gerar automaticamente todas as bases de dados necessárias para os exercícios.
 
 ## Pré-requisitos
 
@@ -61,6 +57,6 @@ Pronto! Agora você deve ver a pasta `fea-databricks-data` no seu workspace.
 
 ## Como Gerar as Tabelas
 
-Se você é aluno do curso `Formação em Engenharia de Analytics` [clique aqui](./fea/README.md)
+Se você é aluno do curso `Formação em Engenharia de Analytics` [clique aqui](./fea/)
 
-Se você é aluno do curso `Formação em Análise de Dados` [clique aqui](./fada/README.md)
+Se você é aluno do curso `Formação em Análise de Dados` [clique aqui](./fada/)
