@@ -57,6 +57,6 @@ Pronto! Agora você deve ver a pasta `fea-databricks-data` no seu workspace.
 
 ## Como Gerar as Tabelas
 
-Se você é aluno do curso `Formação em Engenharia de Analytics` [clique aqui](./fea/)
+Se você é aluno do curso `Formação em Engenharia de Analytics` [clique aqui](./fea/README.md)
 
-Se você é aluno do curso `Formação em Análise de Dados` [clique aqui](./fada/)
+Se você é aluno do curso `Formação em Análise de Dados` [clique aqui](./fada/README.md)
