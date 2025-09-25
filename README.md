@@ -92,3 +92,33 @@ Após a conclusão bem-sucedida de todas as células, você poderá ir até o **
 ![Catalog Data](images/catalog.png)
 
 Se você chegou até aqui, seu ambiente está configurado com sucesso e pronto para o curso!
+
+=====================================================
+
+<details>
+  <summary><strong>➡️ I am a student in the FADA course.</strong></summary>
+
+  <!-- Everything below this line is hidden until the user clicks the summary text -->
+
+  ---
+
+  ### 🎓 Instructions for FADA Course Students
+  Welcome, FADA students! This section contains all the information...
+  ...
+  (Rest of the instructions)
+
+</details>
+
+<details>
+  <summary><strong>➡️ I am a student in the FEA course.</strong></summary>
+
+  <!-- Everything below this line is hidden until the user clicks the summary text -->
+
+  ---
+
+  ### 🎓 Instructions for FADA Course Students
+  Welcome, FADA students! This section contains all the information...
+  ...
+  (Rest of the instructions)
+
+</details>
