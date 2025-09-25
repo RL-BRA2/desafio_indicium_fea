@@ -4,12 +4,6 @@
   <img src="images/academy.png" alt="Indicium Academy Logo" width="200"/>
 </div>
 
-<br>
-
-<h1 align="center"> Projeto de Dados - Formação em Engenharia de Analytics </h1>
-
-<br>
-
 <div align="center" style="border: 3px solid #ff4d4d; padding: 5px; background-color: #fff5f5;">
 <br>
   <h1 style="color: #ff4d4d">⚠️ ATENÇÃO: ESTE É UM REPOSITÓRIO PÚBLICO ⚠️</h1>
@@ -67,58 +61,6 @@ Pronto! Agora você deve ver a pasta `fea-databricks-data` no seu workspace.
 
 ## Como Gerar as Tabelas
 
-Com o repositório configurado, o próximo passo é executar o código para criar as tabelas.
+Se você é aluno do curso `Formação em Engenharia de Analytics` [clique aqui](./fea/README.md)
 
-1.  **Abra o Notebook de Ingestão:**
-    Dentro da pasta `fea-databricks-data` que você acabou de clonar, encontre e clique no notebook chamado `databases_ingestion`.
-
-2.  **Execute o Notebook:**
-    Clique no botão **Executar tudo (Run all)**, localizado na barra de ferramentas superior do notebook.
-
-    O processo de execução do notebook deve levar **aproximadamente 2 minutos**.
-
-![Notebook Execution](images/notebook.png)
-
-## Resultado Esperado
-
-Após a conclusão bem-sucedida de todas as células, você poderá ir até o **Catálogo (Catalog)** no menu lateral do Databricks e verificar o seguinte:
-
--   Um novo catálogo chamado `fea_academy` foi criado.
--   Dentro dele, você encontrará dois schemas:
-    -   `adventure_works`
-    -   `northwind`
--   Cada um desses schemas conterá as tabelas necessárias para as aulas.
-
-![Catalog Data](images/catalog.png)
-
-Se você chegou até aqui, seu ambiente está configurado com sucesso e pronto para o curso!
-
-=====================================================
-
-<details>
-  <summary><strong>➡️ I am a student in the FADA course.</strong></summary>
-
-  <!-- Everything below this line is hidden until the user clicks the summary text -->
-
-  ---
-
-  ### 🎓 Instructions for FADA Course Students
-  Welcome, FADA students! This section contains all the information...
-  ...
-  (Rest of the instructions)
-
-</details>
-
-<details>
-  <summary><strong>➡️ I am a student in the FEA course.</strong></summary>
-
-  <!-- Everything below this line is hidden until the user clicks the summary text -->
-
-  ---
-
-  ### 🎓 Instructions for FADA Course Students
-  Welcome, FADA students! This section contains all the information...
-  ...
-  (Rest of the instructions)
-
-</details>
+Se você é aluno do curso `Formação em Análise de Dados` [clique aqui](./fada/README.md)
