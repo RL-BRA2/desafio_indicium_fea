@@ -9,4 +9,8 @@ sources:
       - name: sales_customer
       - name: production_product
       - name: sales_creditcard
+      - name: sales_salesorderheader
+      - name: sales_salesorderdetail
+      - name: sales_salesreason
+      - name: sales_salesorderheadersalesreason
 
