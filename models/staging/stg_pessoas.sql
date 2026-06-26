@@ -1,4 +1,4 @@
-with source_person as (
+with source_pessoas as (
     select * from {{ source('raw', 'person_person') }}
 )
 
@@ -8,5 +8,4 @@ select
     cast(middlename as string) as nome_do_meio,
     cast(lastname as string) as sobrenome,
     trim(concat(coalesce(firstname, ''), ' ', coalesce(middlename, ''), ' ', coalesce(lastname, ''))) as nome_completo
-
-from source_person
+from source_pessoas

@@ -1,4 +1,4 @@
-with source_customers as (
+with source_clientes_vendas as (
     select * from {{ source('raw', 'sales_customer') }}
 )
 
@@ -7,4 +7,4 @@ select
     cast(personid as int) as id_pessoa,
     cast(storeid as int) as id_loja,
     cast(territoryid as int) as id_territorio
-from source_customers
+from source_clientes_vendas

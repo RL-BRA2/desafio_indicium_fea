@@ -1,4 +1,4 @@
-with source_stateprovince as (
+with source_provincia_estado as (
     select * from {{ source('raw', 'person_stateprovince') }}
 )
 
@@ -7,4 +7,4 @@ select
     cast(stateprovincecode as string) as codigo_estado,
     cast(name as string) as nome_estado,
     cast(countryregioncode as string) as codigo_regiao_pais
-from source_stateprovince
+from source_provincia_estado
