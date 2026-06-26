@@ -1,5 +1,5 @@
 with source_address as (
-    select * from {{ ref('person_address') }}
+    select * from {{ source('raw', 'person_address') }}
 )
 
 select
