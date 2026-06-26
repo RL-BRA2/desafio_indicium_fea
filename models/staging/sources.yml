@@ -7,4 +7,6 @@ sources:
       - name: person_countryregion
       - name: person_person
       - name: sales_customer
+      - name: production_product
+      - name: sales_creditcard
 
