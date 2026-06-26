@@ -5,3 +5,6 @@ sources:
       - name: person_address
       - name: person_stateprovince
       - name: person_countryregion
+      - name: person_person
+      - name: sales_customer
+
