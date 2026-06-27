@@ -11,8 +11,8 @@ lojas as (
 )
 
 select
-    cl.id_cliente,
-    coalesce(pe.nome_completo, lj.nome_loja, 'Não Informado') as nome_cliente
-from clientes cl
-left join pessoas pe on cl.id_pessoa = pe.id_pessoa
-left join lojas lj on cl.id_loja = lj.id_loja
+    clientes.id_cliente,
+    coalesce(pessoas.nome_completo, lojas.nome_loja, 'Não Informado') as nome_cliente
+from clientes
+left join pessoas on clientes.id_pessoa = pessoas.id_pessoa
+left join lojas on clientes.id_loja = lojas.id_loja
