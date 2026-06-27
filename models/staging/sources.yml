@@ -13,4 +13,6 @@ sources:
       - name: sales_salesorderdetail
       - name: sales_salesreason
       - name: sales_salesorderheadersalesreason
+      - name: sales_store
+
 
