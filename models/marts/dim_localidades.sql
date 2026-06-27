@@ -11,12 +11,12 @@ paises as (
 )
 
 select
-    end.id_endereco,
-    end.endereco_linha1 as endereco,
-    end.cidade,
-    est.nome_estado as estado,
-    est.codigo_estado as sigla_estado,
-    pa.nome_pais as pais
-from enderecos end
-left join estados est on end.id_estado = est.id_estado_provincia
-left join paises pa on est.codigo_regiao_pais = pa.codigo_regiao_pais
+    enderecos.id_endereco,
+    enderecos.endereco_linha1 as endereco,
+    enderecos.cidade,
+    estados.nome_estado as estado,
+    estados.codigo_estado as sigla_estado,
+    paises.nome_pais as pais
+from enderecos
+left join estados on enderecos.id_estado = estados.id_estado_provincia
+left join paises on estados.codigo_regiao_pais = paises.codigo_regiao_pais
