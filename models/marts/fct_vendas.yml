@@ -1,0 +1,11 @@
+models:
+  - name: fct_vendas
+    description: "Tabela fato principal do projeto. Contém as métricas financeiras de quantidade, preço e valores líquidos negociados."
+    columns:
+      - name: id_pedido_detalhe
+        description: "Chave primária do item do pedido."
+        tests:
+          - unique
+          - not_null
+      - name: valor_total_negociado
+        description: "Métrica de faturamento líquido por item, já descontados os abatimentos percentuais."
