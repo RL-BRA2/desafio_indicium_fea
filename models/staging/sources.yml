@@ -1,5 +1,6 @@
 sources:
   - name: raw
+    catalog: raw
     schema: dbt_rsantos
     description: "Esquema contendo os dados brutos carregados a partir dos arquivos da pasta Adventure."
     

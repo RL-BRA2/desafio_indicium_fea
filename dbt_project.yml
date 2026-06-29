@@ -38,13 +38,16 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   desafio_indicium_fea:
     staging:
+      +catalog: analytics_adventure_works
       +schema: staging
       +materialized: view
 
     intermediate:
+      +catalog: analytics_adventure_works
       +schema: intermediate
       +materialized: table
     
     marts:
+      +catalog: analytics_adventure_works
       +schema: marts
       +materialized: table
