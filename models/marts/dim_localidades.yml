@@ -1,0 +1,11 @@
+models:
+  - name: dim_localidades
+    description: "Tabela dimensional contendo o  endereço, cidade, estado e país."
+    columns:
+      - name: id_endereco
+        description: "Chave primária da localidade."
+        tests:
+          - unique
+          - not_null
+      - name: cidade
+        description: "Nome da cidade de entrega."

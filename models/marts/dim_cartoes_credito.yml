@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_cartoes_credito
+    description: "Dimensão que contém as informações dos cartões de crédito dos clientes."
+    columns:
+      - name: id_cartao_credito
+        description: "Chave primária do cartão de crédito."
+        tests:
+          - unique
+          - not_null

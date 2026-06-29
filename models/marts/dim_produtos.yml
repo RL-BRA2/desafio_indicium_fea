@@ -1,0 +1,11 @@
+models:
+  - name: dim_produtos
+    description: "Tabela dimensional contendo o catálogo de produtos e seus respectivos preços de lista."
+    columns:
+        - name: id_produto
+          description: "Chave primária do produto."
+          tests:
+            - unique
+            - not_null
+        - name: nome_produto
+          description: "Nome comercial do produto."
