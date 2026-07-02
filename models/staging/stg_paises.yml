@@ -1,0 +1,11 @@
+models:
+  - name: stg_paises
+    description: "Tabela de países."
+    columns:
+      - name: codigo_regiao_pais
+        description: "Chave Primária do país."
+        tests:
+          - unique
+          - not_null
+      - name: nome_pais
+        description: "Nome por extenso do país."

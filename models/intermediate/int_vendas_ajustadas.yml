@@ -1,7 +1,4 @@
 models:
-  - name: int_motivos_pedidos
-    description: "Modelo intermediário responsável por achatar a relação Muitos-para-Muitos de motivos de venda usando listagg, evitando duplicação na Fato."
-
   - name: int_vendas_ajustadas
     description: "Modelo intermediário que consolida as regras de negócio financeiras de faturamento bruto, descontos e faturamento líquido."
     columns:

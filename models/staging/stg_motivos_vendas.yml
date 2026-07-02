@@ -1,0 +1,9 @@
+models:
+  - name: stg_motivos_venda
+    description: "Cadastro dos motivos comerciais mapeados no sistema."
+    columns:
+      - name: id_motivo_venda
+        description: "Chave primária do motivo de venda."
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,11 @@
+models:
+  - name: stg_estados
+    description: "Tabela de estados e províncias, contendo os nomes e códigos de regiões."
+    columns:
+      - name: id_estado_provincia
+        description: "Chave primária do estado."
+        tests:
+          - unique
+          - not_null
+      - name: nome_estado
+        description: "Nome por extenso do estado ou província."
