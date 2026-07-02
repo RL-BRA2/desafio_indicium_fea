@@ -1,0 +1,8 @@
+models:
+  - name: stg_motivos_pedidos
+    description: "Tabela ponte Muitos-para-Muitos mapeando quais pedidos possuem quais motivos de venda."
+    columns:
+      - name: id_pedido
+        description: "Chave estrangeira do pedido."
+      - name: id_motivo_venda
+        description: "Chave estrangeira do motivo."

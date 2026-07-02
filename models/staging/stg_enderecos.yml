@@ -1,0 +1,13 @@
+models:
+  - name: stg_enderecos
+    description: "Tabela de endereços físicos, padronizando chaves e localizações."
+    columns:
+      - name: id_endereco
+        description: "Chave primária do endereço."
+        tests:
+          - unique
+          - not_null
+      - name: cidade
+        description: "Nome da cidade associada ao endereço."
+      - name: id_estado
+        description: "Chave estrangeira de ligação com a tabela de estados."

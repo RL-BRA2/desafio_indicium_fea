@@ -1,0 +1,11 @@
+models:
+  - name: stg_pessoas
+    description: "Cadastro de pessoas físicas, contendo o cálculo automatizado do nome completo."
+    columns:
+      - name: id_pessoa
+        description: "Chave primária identificadora da pessoa."
+        tests:
+          - unique
+          - not_null
+      - name: nome_completo
+        description: "Nome completo do cliente sem espaços excedentes, gerado via concatenação no staging."

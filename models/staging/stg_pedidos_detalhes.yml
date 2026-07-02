@@ -1,0 +1,11 @@
+models:
+  - name: stg_pedidos_detalhes
+    description: "Detalhamento dos itens que compõem cada pedido de venda, contendo quantidades e preços."
+    columns:
+      - name: id_pedido_detalhe
+        description: "Chave primária identificadora do item do pedido."
+        tests:
+          - unique
+          - not_null
+      - name: id_pedido
+        description: "Chave estrangeira ligando o item ao seu respectivo cabeçalho."

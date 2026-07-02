@@ -1,0 +1,9 @@
+models:
+  - name: stg_pedidos_cabecalhos
+    description: "Cabeçalho das ordens de venda contendo metadados gerais do pedido, datas e chaves de relacionamento."
+    columns:
+      - name: id_pedido
+        description: "Chave primária do pedido de venda."
+        tests:
+          - unique
+          - not_null

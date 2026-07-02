@@ -1,0 +1,9 @@
+models:
+  - name: stg_lojas
+    description: "Cadastro de lojas e empresas parceiras que atuam como clientes corporativos."
+    columns:
+      - name: id_loja
+        description: "Chave primária identificadora da loja."
+        tests:
+          - unique
+          - not_null

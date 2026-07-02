@@ -1,0 +1,9 @@
+models:
+  - name: stg_produtos
+    description: "Catálogo unificado de produtos comercializados, contendo custos e preços de lista brutos."
+    columns:
+      - name: id_produto
+        description: "Chave primária do produto."
+        tests:
+          - unique
+          - not_null

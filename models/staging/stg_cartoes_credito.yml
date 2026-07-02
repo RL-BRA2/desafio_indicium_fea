@@ -1,0 +1,11 @@
+models:
+  - name: stg_cartoes_credito
+    description: "Tabela contendo os dados de pagamento por cartão, omitindo dados sensíveis em conformidade com as boas práticas."
+    columns:
+      - name: id_cartao_credito
+        description: "Chave primária do cartão de crédito."
+        tests:
+          - unique
+          - not_null
+      - name: tipo_cartao
+        description: "Bandeira/Tipo do cartão de crédito (ex: MasterCard, Vista)."
